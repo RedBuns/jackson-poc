@@ -1,0 +1,47 @@
+{
+  "AirLowFareSearchRQ": {
+    "-xmlns:pfx": "http://www.xmlns.skandha.com/datatypes/Air/Service/1.0/",
+    "-xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "-xsi:schemaLocation": "http://www.xmlns.skandha.com/datatypes/Air/Service/1.0/ request.xsd ",
+    "requesterDetails": {
+      "requestId": "12345",
+      "appID": "skandha",
+      "userName": "rama",
+      "requesterType": "search",
+      "companyName": "msrcosmos"
+    },
+    "originDestinationInformation": [{
+      "departureDateTime": "2016-04-09T00:00:00",
+      "originLocation": "TPE",
+      "destinationLocation": "HKG"
+    }, {
+      "departureDateTime": "2016-08-14T00:00:00",
+      "originLocation": "BLR",
+      "destinationLocation": "COK"
+    }, {
+      "departureDateTime": "2016-08-14T00:00:00",
+      "originLocation": "MAS",
+      "destinationLocation": "DEL"
+    }],
+    "travelPreferences": {
+      "eTicketDesired": "true"
+    },
+    "travelerInfoSummary": [{
+      "seatsRequested": "2",
+      "passengerTypeQuantityCode": "ADT",
+      "directFlightsPriority": "true"
+    }, {
+      "seatsRequested": "3",
+      "passengerTypeQuantity": "CNN",
+      "directFlightsPriority": "true"
+    }, {
+      "seatsRequested": "1",
+      "passengerTypeQuantity": "INF",
+      "directFlightsPriority": "true"
+    }],
+    "tpaextensions": {
+      "requestType": "search",
+      "compressResponse": "N"
+    }
+  }
+}

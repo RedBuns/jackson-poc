@@ -1,0 +1,6316 @@
+{
+  "Response": {
+    "ResponseStatus": 1,
+    "Error": {
+      "ErrorCode": 0,
+      "ErrorMessage": ""
+    },
+    "TraceId": "bd90e977-bd0e-48ec-aee8-49637dd778ed",
+    "Origin": "TPE",
+    "Destination": "HKG",
+    "Results": [
+      [
+        {
+          "ResultIndex": "OB7",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 38570,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 46410,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 46410,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 17730,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 19950,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 890,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CI",
+                  "AirlineName": "China Airline",
+                  "FlightNumber": "915",
+                  "FareClass": "V",
+                  "OperatingCarrier": "CI"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T14:35:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T16:30:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T16:30:00",
+                "StopPointDepartureTime": "2017-04-09T14:35:00",
+                "Craft": "359",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \nFARE VALID FOR E TICKET ONLY \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CI",
+              "FareBasisCode": "VOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CI",
+          "ValidatingAirline": "CI",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB6",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 38570,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 46410,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 46410,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 17730,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 19950,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 890,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CI",
+                  "AirlineName": "China Airline",
+                  "FlightNumber": "679",
+                  "FareClass": "V",
+                  "OperatingCarrier": "CI"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T13:40:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T15:35:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T15:35:00",
+                "StopPointDepartureTime": "2017-04-09T13:40:00",
+                "Craft": "333",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \nFARE VALID FOR E TICKET ONLY \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CI",
+              "FareBasisCode": "VOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CI",
+          "ValidatingAirline": "CI",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB8",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 38570,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 46410,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 46410,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 17730,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 19950,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 890,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CI",
+                  "AirlineName": "China Airline",
+                  "FlightNumber": "919",
+                  "FareClass": "V",
+                  "OperatingCarrier": "CI"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T16:55:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T18:50:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T18:50:00",
+                "StopPointDepartureTime": "2017-04-09T16:55:00",
+                "Craft": "77W",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \nFARE VALID FOR E TICKET ONLY \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CI",
+              "FareBasisCode": "VOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CI",
+          "ValidatingAirline": "CI",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB10",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 38570,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 46410,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 46410,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 17730,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 19950,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 890,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CI",
+                  "AirlineName": "China Airline",
+                  "FlightNumber": "927",
+                  "FareClass": "V",
+                  "OperatingCarrier": "CI"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T19:30:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T21:25:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T21:25:00",
+                "StopPointDepartureTime": "2017-04-09T19:30:00",
+                "Craft": "333",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \nFARE VALID FOR E TICKET ONLY \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CI",
+              "FareBasisCode": "VOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CI",
+          "ValidatingAirline": "CI",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB9",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 38570,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 46410,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 46410,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 17730,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 19950,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 890,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CI",
+                  "AirlineName": "China Airline",
+                  "FlightNumber": "923",
+                  "FareClass": "V",
+                  "OperatingCarrier": "CI"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T18:20:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T20:15:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T20:15:00",
+                "StopPointDepartureTime": "2017-04-09T18:20:00",
+                "Craft": "738",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \nFARE VALID FOR E TICKET ONLY \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CI",
+              "FareBasisCode": "VOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CI",
+          "ValidatingAirline": "CI",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB2",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 38570,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 46410,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 46410,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 17730,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 19950,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 890,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CI",
+                  "AirlineName": "China Airline",
+                  "FlightNumber": "677",
+                  "FareClass": "V",
+                  "OperatingCarrier": "CI"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T22:05:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T23:50:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T23:50:00",
+                "StopPointDepartureTime": "2017-04-09T22:05:00",
+                "Craft": "333",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \nFARE VALID FOR E TICKET ONLY \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CI",
+              "FareBasisCode": "VOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CI",
+          "ValidatingAirline": "CI",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB1",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 38570,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 46410,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 46410,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 17730,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 19950,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 890,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CI",
+                  "AirlineName": "China Airline",
+                  "FlightNumber": "641",
+                  "FareClass": "V",
+                  "OperatingCarrier": "CI"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T08:55:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T10:40:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T10:40:00",
+                "StopPointDepartureTime": "2017-04-09T08:55:00",
+                "Craft": "738",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \nFARE VALID FOR E TICKET ONLY \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CI",
+              "FareBasisCode": "VOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CI",
+          "ValidatingAirline": "CI",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB3",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 38570,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 46410,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 46410,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 17730,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 19950,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 890,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CI",
+                  "AirlineName": "China Airline",
+                  "FlightNumber": "601",
+                  "FareClass": "V",
+                  "OperatingCarrier": "CI"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T07:25:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T09:15:00"
+                },
+                "AccumulatedDuration": 110,
+                "Duration": 110,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T09:15:00",
+                "StopPointDepartureTime": "2017-04-09T07:25:00",
+                "Craft": "333",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \nFARE VALID FOR E TICKET ONLY \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CI",
+              "FareBasisCode": "VOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CI",
+          "ValidatingAirline": "CI",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB5",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 38570,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 46410,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 46410,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 17730,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 19950,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 890,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CI",
+                  "AirlineName": "China Airline",
+                  "FlightNumber": "909",
+                  "FareClass": "V",
+                  "OperatingCarrier": "CI"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T11:00:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T12:55:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T12:55:00",
+                "StopPointDepartureTime": "2017-04-09T11:00:00",
+                "Craft": "359",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \nFARE VALID FOR E TICKET ONLY \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CI",
+              "FareBasisCode": "VOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CI",
+          "ValidatingAirline": "CI",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB4",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 38570,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 46410,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 46410,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 17730,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 19950,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 890,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CI",
+                  "AirlineName": "China Airline",
+                  "FlightNumber": "903",
+                  "FareClass": "V",
+                  "OperatingCarrier": "CI"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T08:15:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T10:05:00"
+                },
+                "AccumulatedDuration": 110,
+                "Duration": 110,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T10:05:00",
+                "StopPointDepartureTime": "2017-04-09T08:15:00",
+                "Craft": "744",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \nFARE VALID FOR E TICKET ONLY \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CI",
+              "FareBasisCode": "VOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CI",
+          "ValidatingAirline": "CI",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB13",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 37695,
+            "Tax": 8556,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 3276
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 47001,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 47001,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 14360,
+              "Tax": 3204,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 16155,
+              "Tax": 4806,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 7180,
+              "Tax": 546,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "HX",
+                  "AirlineName": "Hong Kong Airlines",
+                  "FlightNumber": "283",
+                  "FareClass": "L",
+                  "OperatingCarrier": "HX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T20:50:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T22:55:00"
+                },
+                "AccumulatedDuration": 125,
+                "Duration": 125,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T22:55:00",
+                "StopPointDepartureTime": "2017-04-09T20:50:00",
+                "Craft": "332",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "HX",
+              "FareBasisCode": "LOWTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "HX",
+          "ValidatingAirline": "HX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB14",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 37695,
+            "Tax": 8556,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 3276
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 47001,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 47001,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 14360,
+              "Tax": 3204,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 16155,
+              "Tax": 4806,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 7180,
+              "Tax": 546,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "HX",
+                  "AirlineName": "Hong Kong Airlines",
+                  "FlightNumber": "265",
+                  "FareClass": "L",
+                  "OperatingCarrier": "HX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T14:55:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T17:10:00"
+                },
+                "AccumulatedDuration": 135,
+                "Duration": 135,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T17:10:00",
+                "StopPointDepartureTime": "2017-04-09T14:55:00",
+                "Craft": "332",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "HX",
+              "FareBasisCode": "LOWTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "HX",
+          "ValidatingAirline": "HX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB11",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 37695,
+            "Tax": 8556,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 3276
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 47001,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 47001,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 14360,
+              "Tax": 3204,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 16155,
+              "Tax": 4806,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 7180,
+              "Tax": 546,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "HX",
+                  "AirlineName": "Hong Kong Airlines",
+                  "FlightNumber": "285",
+                  "FareClass": "L",
+                  "OperatingCarrier": "HX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T08:00:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T09:55:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T09:55:00",
+                "StopPointDepartureTime": "2017-04-09T08:00:00",
+                "Craft": "332",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "HX",
+              "FareBasisCode": "LOWTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "HX",
+          "ValidatingAirline": "HX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB12",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 37695,
+            "Tax": 8556,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 3276
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 47001,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 47001,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 14360,
+              "Tax": 3204,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 16155,
+              "Tax": 4806,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 7180,
+              "Tax": 546,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "HX",
+                  "AirlineName": "Hong Kong Airlines",
+                  "FlightNumber": "253",
+                  "FareClass": "L",
+                  "OperatingCarrier": "HX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T12:15:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T14:20:00"
+                },
+                "AccumulatedDuration": 125,
+                "Duration": 125,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T14:20:00",
+                "StopPointDepartureTime": "2017-04-09T12:15:00",
+                "Craft": "333",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "HX",
+              "FareBasisCode": "LOWTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "HX",
+          "ValidatingAirline": "HX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB20",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 107995,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 115835,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 115835,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 49650,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 55860,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 2485,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "BR",
+                  "AirlineName": "Eva Airways",
+                  "FlightNumber": "871",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "BR"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T16:40:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T18:25:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T18:25:00",
+                "StopPointDepartureTime": "2017-04-09T16:40:00",
+                "Craft": "321",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "BR",
+              "FareBasisCode": "YOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "BR",
+          "ValidatingAirline": "BR",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB19",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 107995,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 115835,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 115835,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 49650,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 55860,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 2485,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "BR",
+                  "AirlineName": "Eva Airways",
+                  "FlightNumber": "869",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "BR"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T12:40:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T14:25:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T14:25:00",
+                "StopPointDepartureTime": "2017-04-09T12:40:00",
+                "Craft": "321",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "BR",
+              "FareBasisCode": "YOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "BR",
+          "ValidatingAirline": "BR",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB22",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 107995,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 115835,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 115835,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 49650,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 55860,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 2485,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "BR",
+                  "AirlineName": "Eva Airways",
+                  "FlightNumber": "827",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "BR"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T21:50:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T23:35:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T23:35:00",
+                "StopPointDepartureTime": "2017-04-09T21:50:00",
+                "Craft": "321",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "BR",
+              "FareBasisCode": "YOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "BR",
+          "ValidatingAirline": "BR",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB21",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 107995,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 115835,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 115835,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 49650,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 55860,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 2485,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "BR",
+                  "AirlineName": "Eva Airways",
+                  "FlightNumber": "857",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "BR"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T18:10:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T19:55:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T19:55:00",
+                "StopPointDepartureTime": "2017-04-09T18:10:00",
+                "Craft": "332",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "BR",
+              "FareBasisCode": "YOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "BR",
+          "ValidatingAirline": "BR",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB16",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 107995,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 115835,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 115835,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 49650,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 55860,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 2485,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "BR",
+                  "AirlineName": "Eva Airways",
+                  "FlightNumber": "891",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "BR"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T07:00:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T08:45:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T08:45:00",
+                "StopPointDepartureTime": "2017-04-09T07:00:00",
+                "Craft": "321",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "BR",
+              "FareBasisCode": "YOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "BR",
+          "ValidatingAirline": "BR",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB15",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 107995,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 115835,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 115835,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 49650,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 55860,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 2485,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "BR",
+                  "AirlineName": "Eva Airways",
+                  "FlightNumber": "855",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "BR"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T14:10:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T15:50:00"
+                },
+                "AccumulatedDuration": 100,
+                "Duration": 100,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T15:50:00",
+                "StopPointDepartureTime": "2017-04-09T14:10:00",
+                "Craft": "321",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "BR",
+              "FareBasisCode": "YOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "BR",
+          "ValidatingAirline": "BR",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB18",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 107995,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 115835,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 115835,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 49650,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 55860,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 2485,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "BR",
+                  "AirlineName": "Eva Airways",
+                  "FlightNumber": "867",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "BR"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T10:20:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T12:05:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T12:05:00",
+                "StopPointDepartureTime": "2017-04-09T10:20:00",
+                "Craft": "321",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "BR",
+              "FareBasisCode": "YOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "BR",
+          "ValidatingAirline": "BR",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB17",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 107995,
+            "Tax": 7090,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 1810
+              },
+              {
+                "key": "YR",
+                "value": 0
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 1810,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 115835,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 115835,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 49650,
+              "Tax": 2836,
+              "YQTax": 724,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 55860,
+              "Tax": 4254,
+              "YQTax": 1086,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 2485,
+              "Tax": 0,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "BR",
+                  "AirlineName": "Eva Airways",
+                  "FlightNumber": "851",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "BR"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "2",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T08:20:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T10:05:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T10:05:00",
+                "StopPointDepartureTime": "2017-04-09T08:20:00",
+                "Craft": "321",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "BR",
+              "FareBasisCode": "YOTW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "BR",
+          "ValidatingAirline": "BR",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB32",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "475",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T11:05:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T13:05:00"
+                },
+                "AccumulatedDuration": 120,
+                "Duration": 120,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T13:05:00",
+                "StopPointDepartureTime": "2017-04-09T11:05:00",
+                "Craft": "77W",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB31",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "469",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T10:10:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T12:10:00"
+                },
+                "AccumulatedDuration": 120,
+                "Duration": 120,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T12:10:00",
+                "StopPointDepartureTime": "2017-04-09T10:10:00",
+                "Craft": "333",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB30",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "531",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T20:00:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T21:55:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T21:55:00",
+                "StopPointDepartureTime": "2017-04-09T20:00:00",
+                "Craft": "772",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB33",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "421",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T11:55:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T13:55:00"
+                },
+                "AccumulatedDuration": 120,
+                "Duration": 120,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T13:55:00",
+                "StopPointDepartureTime": "2017-04-09T11:55:00",
+                "Craft": "772",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB36",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "KA",
+                  "AirlineName": "Dragonair",
+                  "FlightNumber": "487",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "KA"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T10:50:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T12:45:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T12:45:00",
+                "StopPointDepartureTime": "2017-04-09T10:50:00",
+                "Craft": "333",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "KA",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "KA",
+          "ValidatingAirline": "KA",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB35",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "KA",
+                  "AirlineName": "Dragonair",
+                  "FlightNumber": "483",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "KA"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T21:10:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T22:55:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T22:55:00",
+                "StopPointDepartureTime": "2017-04-09T21:10:00",
+                "Craft": "321",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "KA",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "KA",
+          "ValidatingAirline": "KA",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB34",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "495",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T13:25:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T15:25:00"
+                },
+                "AccumulatedDuration": 120,
+                "Duration": 120,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T15:25:00",
+                "StopPointDepartureTime": "2017-04-09T13:25:00",
+                "Craft": "77W",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB25",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "5483",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "KA"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T21:10:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T22:55:00"
+                },
+                "AccumulatedDuration": 105,
+                "Duration": 105,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T22:55:00",
+                "StopPointDepartureTime": "2017-04-09T21:10:00",
+                "Craft": "321",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB24",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "465",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T07:05:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T08:45:00"
+                },
+                "AccumulatedDuration": 100,
+                "Duration": 100,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T08:45:00",
+                "StopPointDepartureTime": "2017-04-09T07:05:00",
+                "Craft": "773",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB23",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "463",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T06:05:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T07:45:00"
+                },
+                "AccumulatedDuration": 100,
+                "Duration": 100,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T07:45:00",
+                "StopPointDepartureTime": "2017-04-09T06:05:00",
+                "Craft": "359",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB26",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "407",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T08:00:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T09:50:00"
+                },
+                "AccumulatedDuration": 110,
+                "Duration": 110,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T09:50:00",
+                "StopPointDepartureTime": "2017-04-09T08:00:00",
+                "Craft": "773",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB29",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "451",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T19:30:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T21:25:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T21:25:00",
+                "StopPointDepartureTime": "2017-04-09T19:30:00",
+                "Craft": "773",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB28",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "409",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T19:20:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T21:15:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T21:15:00",
+                "StopPointDepartureTime": "2017-04-09T19:20:00",
+                "Craft": "359",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        },
+        {
+          "ResultIndex": "OB27",
+          "Source": 4,
+          "IsLCC": false,
+          "IsRefundable": true,
+          "AirlineRemark": null,
+          "Fare": {
+            "Currency": "INR",
+            "BaseFare": 131860,
+            "Tax": 7452,
+            "TaxBreakup": [
+              {
+                "key": "YQTax",
+                "value": 0
+              },
+              {
+                "key": "YR",
+                "value": 2172
+              },
+              {
+                "key": "PSF",
+                "value": 0
+              },
+              {
+                "key": "UDF",
+                "value": 0
+              },
+              {
+                "key": "JNTax",
+                "value": 0
+              },
+              {
+                "key": "INTax",
+                "value": 0
+              },
+              {
+                "key": "TransactionFee",
+                "value": 0
+              }
+            ],
+            "YQTax": 0,
+            "AdditionalTxnFeeOfrd": 0,
+            "AdditionalTxnFeePub": 0,
+            "OtherCharges": 750,
+            "ChargeBU": [
+              {
+                "key": "TBOMARKUP",
+                "value": 0
+              },
+              {
+                "key": "CONVENIENCECHARGE",
+                "value": 0
+              },
+              {
+                "key": "OTHERCHARGE",
+                "value": 750
+              }
+            ],
+            "Discount": 0,
+            "PublishedFare": 140062,
+            "CommissionEarned": 0,
+            "PLBEarned": 0,
+            "IncentiveEarned": 0,
+            "OfferedFare": 140062,
+            "TdsOnCommission": 0,
+            "TdsOnPLB": 0,
+            "TdsOnIncentive": 0,
+            "ServiceFee": 0,
+            "TotalBaggageCharges": 0,
+            "TotalMealCharges": 0,
+            "TotalSeatCharges": 0
+          },
+          "FareBreakdown": [
+            {
+              "Currency": "INR",
+              "PassengerType": 1,
+              "PassengerCount": 2,
+              "BaseFare": 60620,
+              "Tax": 2836,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 2,
+              "PassengerCount": 3,
+              "BaseFare": 68205,
+              "Tax": 4254,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            },
+            {
+              "Currency": "INR",
+              "PassengerType": 3,
+              "PassengerCount": 1,
+              "BaseFare": 3035,
+              "Tax": 362,
+              "YQTax": 0,
+              "AdditionalTxnFeeOfrd": 0,
+              "AdditionalTxnFeePub": 0
+            }
+          ],
+          "Segments": [
+            [
+              {
+                "Baggage": "30 KG",
+                "CabinBaggage": null,
+                "TripIndicator": 1,
+                "SegmentIndicator": 1,
+                "Airline": {
+                  "AirlineCode": "CX",
+                  "AirlineName": "Cathay Pacific Airways",
+                  "FlightNumber": "403",
+                  "FareClass": "Y",
+                  "OperatingCarrier": "CX"
+                },
+                "NoOfSeatAvailable": 9,
+                "Origin": {
+                  "Airport": {
+                    "AirportCode": "TPE",
+                    "AirportName": "Chiang Kai Chek",
+                    "Terminal": "1",
+                    "CityCode": "TPE",
+                    "CityName": "Taipei",
+                    "CountryCode": "TW",
+                    "CountryName": "Taiwan"
+                  },
+                  "DepTime": "2017-04-09T09:10:00"
+                },
+                "Destination": {
+                  "Airport": {
+                    "AirportCode": "HKG",
+                    "AirportName": "Hong Kong Int'l",
+                    "Terminal": "1",
+                    "CityCode": "HKG",
+                    "CityName": "Hong Kong",
+                    "CountryCode": "HK",
+                    "CountryName": "Hongkong"
+                  },
+                  "ArrTime": "2017-04-09T11:05:00"
+                },
+                "AccumulatedDuration": 115,
+                "Duration": 115,
+                "GroundTime": 0,
+                "Mile": 0,
+                "StopOver": false,
+                "StopPoint": "",
+                "StopPointArrivalTime": "2017-04-09T11:05:00",
+                "StopPointDepartureTime": "2017-04-09T09:10:00",
+                "Craft": "359",
+                "Remark": null,
+                "IsETicketEligible": true,
+                "FlightStatus": "Confirmed",
+                "Status": ""
+              }
+            ]
+          ],
+          "LastTicketDate": "09APR17",
+          "TicketAdvisory": "PENALTY APPLIES \nLAST TKT DTE 09APR17  - DATE OF ORIGIN \n",
+          "FareRules": [
+            {
+              "Origin": "TPE",
+              "Destination": "HKG",
+              "Airline": "CX",
+              "FareBasisCode": "YOW",
+              "FareRuleDetail": "",
+              "FareRestriction": "Y"
+            }
+          ],
+          "AirlineCode": "CX",
+          "ValidatingAirline": "CX",
+          "BaggageAllowance": "30 KG"
+        }
+      ]
+    ]
+  }
+}
